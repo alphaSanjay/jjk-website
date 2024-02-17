@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;  
+    margin: 0px; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 40px;
+    color: #F9FAF8;
+}
+.logo{
+    font-size: 24px;
+    font-family: Besley,"serif";
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+a{
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    margin: 0px 100px 40px;
+    justify-content: space-between;
+}
+
+.card{
+    max-width: 500px;
+    max-height: 200px;
+    padding: 5px;
+}
+.one{
+    background-color: #1f2937;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px ;
+}
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0px;
+}
+
+.title{
+    font-size: 34px;
+    font-weight: bolder;
+    margin: 18px;
+}
+.portfolio{
+    margin: 0px 100px 40px;
+    text-align: center;
+}
+.crew{
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+}
+.two{
+    max-width: 200px;
+}
+
+.content img{
+    width: 400px;
+    height: 200px;
+}
+
+.crew img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 18px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 34px;
+    font-style: italic;
+    color: #1f2937;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.end{
+    margin: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 0px 100px;
+    border-radius: 5px;
+}
+.end p{
+    margin: 0px ;
+    padding-top: 0px;
+    color: #E5E7EB;
+}
+
+.last{
+    margin: 18px;
+}
+
+#h3{
+    font-size: 24px;
+}
+
+.end button{
+    border-color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 8px;
+}
